@@ -21,4 +21,5 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore
-
+    - name: Publish
+      run: dotnet nuget push -k ${{secrets.NUGET}} -n
