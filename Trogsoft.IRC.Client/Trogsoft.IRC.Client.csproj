@@ -14,11 +14,4 @@
     <RepositoryUrl>https://github.com/Trogsoft/TrogsoftIRC</RepositoryUrl>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Include="..\..\..\..\OneDrive - Trogsoft Ltd\Logo\trogsoft-120x120-bw.png">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
-  </ItemGroup>
-
 </Project>
