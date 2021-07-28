@@ -2,6 +2,23 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Trogsoft.IRC</PackageId>
+    <Version>0.2</Version>
+    <Authors>Trogsoft Ltd</Authors>
+    <Product>Trogsoft.IRC</Product>
+    <Description>A basic IRC client library for .NET Core</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/Trogsoft/TrogsoftIRC</PackageProjectUrl>
+    <PackageIcon>trogsoft-120x120-bw.png</PackageIcon>
+    <RepositoryUrl>https://github.com/Trogsoft/TrogsoftIRC</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\OneDrive - Trogsoft Ltd\Logo\trogsoft-120x120-bw.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
