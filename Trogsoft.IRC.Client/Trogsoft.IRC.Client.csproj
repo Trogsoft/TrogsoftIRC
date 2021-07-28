@@ -10,7 +10,6 @@
     <Description>A basic IRC client library for .NET Core</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/Trogsoft/TrogsoftIRC</PackageProjectUrl>
-    <PackageIcon>trogsoft-120x120-bw.png</PackageIcon>
     <RepositoryUrl>https://github.com/Trogsoft/TrogsoftIRC</RepositoryUrl>
   </PropertyGroup>
 
