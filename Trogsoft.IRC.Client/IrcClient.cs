@@ -54,7 +54,7 @@ namespace Trogsoft.IRC.Client
                 if (useSsl)
                 {
                     connectionStream = new SslStream(socket.GetStream(), true, certificateVerifier);
-                    ((SslStream)connectionStream).AuthenticateAsClient("irc.trogsoft.net");
+                    ((SslStream)connectionStream).AuthenticateAsClient(host);
                 }
                 else
                     connectionStream = socket.GetStream();
@@ -149,7 +149,7 @@ namespace Trogsoft.IRC.Client
 
                     if (command.Equals("PRIVMSG"))
                     {
-                        OnPrivateMessage.Invoke(new IrcPrivateMessageEventArgs
+                        OnPrivateMessage?.Invoke(new IrcPrivateMessageEventArgs
                         {
                             Source = new IrcSource(prefix),
                             Destination = parts[ci],
