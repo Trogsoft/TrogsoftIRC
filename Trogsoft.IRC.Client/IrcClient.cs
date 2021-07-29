@@ -168,7 +168,7 @@ namespace Trogsoft.IRC.Client
         private string getLongParameter(string rawParams)
         {
             if (rawParams.Contains(':'))
-                return rawParams.Split(':').Last().Trim(':');
+                return rawParams.Split(new char[] { ':' }, 2).Last().Trim(':');
 
             return rawParams;
         }

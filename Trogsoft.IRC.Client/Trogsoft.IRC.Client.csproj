@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Trogsoft.IRC</PackageId>
-    <Version>0.2</Version>
+    <Version>0.2.1</Version>
     <Authors>Trogsoft Ltd</Authors>
     <Product>Trogsoft.IRC</Product>
     <Description>A basic IRC client library for .NET Core</Description>
